@@ -1,0 +1,27 @@
+{
+  "files.associations": {
+    "*.ni": "nimbus",
+    "stdio.h": "c",
+    "mushroom.h": "c",
+    "smiley.h": "c",
+    "splashcreen.h": "c",
+    "gb.h": "c",
+    "danny.h": "c",
+    "stdint.h": "c",
+    "startbuckssplash.h": "c",
+    "metasprites.h": "c"
+  },
+  "files.watcherExclude": {
+    "**/*.gb": true,
+    "**/*.map": true,
+    "**/*.noi": true
+  },
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.(c|h)$",
+        "cmd": "make"
+      }
+    ]
+  }
+}
